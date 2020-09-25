@@ -1,0 +1,52 @@
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+  }
+  
+  .timer #timer-label {
+    font-size: 60px
+  }
+  
+  .timer #time-left {
+    margin: 3vh;
+    font-size: 75px;
+    font-weigth: bold;
+  }
+  
+  .timer .timer-controls {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+  }
+  
+  .timer .timer-controls button {
+    background-color: #274472;
+    color: #C3E0E5;
+    border: none;
+    outline: none;
+  }
+  
+  .timer .timer-controls #start_stop {
+    font-size: 30px;
+    cursor: pointer;
+    transition: opacity 0.5s;
+  }
+  
+  .timer .timer-controls #start_stop:hover {
+    opacity: 0.5;
+  }
+  
+  .timer .timer-controls #reset .fas {
+    font-size: 30px;
+    cursor: pointer;
+    transition: opacity 0.5s;
+  }
+  
+  .timer .timer-controls #reset .fas:hover {
+    opacity: 0.5;
+  }
+  

@@ -1,0 +1,41 @@
+
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 60px
+}
+
+.control .control-label {
+  font-size: 40px;
+  text-align: center;
+}
+
+.control .button-box {
+  margin-top: 4vh;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.control .button-box .fas {
+  font-size: 30px;
+  cursor: pointer;
+  transition: opacity 0.5s;
+}
+
+.control .button-box .fas:hover {
+  opacity: 0.5;
+}
+
+.control .button-box .control-length {
+  font-size: 40px;
+}
+
+.control .button-box .control-button {
+  background-color: #274472;
+  color: #C3E0E5;
+  border: none;
+  outline: none;
+}
