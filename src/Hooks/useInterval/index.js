@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
 // useInterval is a custom Hook wrote by Dan Ambrov,
 // source: https://overreacted.io/making-setinterval-declarative-with-react-hooks/

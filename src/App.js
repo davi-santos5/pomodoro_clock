@@ -41,7 +41,7 @@ function App(){
   
   
   return(
-    <div class='container'>
+    <div className='container'>
       <h1 id="title">Pomodoro's Clock</h1>
       <div className='controlers'> 
         <Control 

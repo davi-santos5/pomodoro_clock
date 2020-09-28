@@ -4,23 +4,23 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 60px
+  font-size: 50px
 }
 
 .control .control-label {
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
 }
 
 .control .button-box {
-  margin-top: 4vh;
+  margin-top: 3vh;
   margin-bottom: 4px;
   display: flex;
   justify-content: space-evenly;
 }
 
 .control .button-box .fas {
-  font-size: 30px;
+  font-size: 20px;
   cursor: pointer;
   transition: opacity 0.5s;
 }
@@ -30,7 +30,7 @@
 }
 
 .control .button-box .control-length {
-  font-size: 40px;
+  font-size: 36px;
 }
 
 .control .button-box .control-button {

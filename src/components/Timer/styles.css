@@ -4,17 +4,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10vh;
+    margin-top: 8vh;
   }
   
   .timer #timer-label {
-    font-size: 60px
+    font-size: 50px
   }
   
   .timer #time-left {
     margin: 3vh;
-    font-size: 75px;
-    font-weigth: bold;
+    font-size: 65px;
+    font-weight: bold;
   }
   
   .timer .timer-controls {
