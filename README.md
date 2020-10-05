@@ -10,6 +10,15 @@ You can set both the session time and the break time. At anytime you can play/pa
 When the clock's coutndown reaches zero an audio alert is played and the clock toggle between the two timers.
 
 
+Clone this repo and run `yarn start` to see it working
+<br>
+<br>
+## View
+
+![Visualization](https://github.com/davi-santos5/pomodoro_clock/blob/master/print.png)
+
+<br>
+<br>
 
 Project devolped based on this [freeCodeCamp Challenge](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-25--5-clock)
 
