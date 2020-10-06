@@ -38,11 +38,18 @@ function Timer(
       }
     }, isRunning ? 1000 : null);
     
-     function playBeep() {
-       beep.play()
-       setTimeout(() => beep.pause(), 2800)
-       setTimeout(() => beep.load(), 3000)
-     }
+    function playBeep() {
+      var playPromise = beep.play()
+      
+      if (playPromise !== undefined) {
+        playPromise.then(() => {
+          setTimeout(() => beep.pause(), 2800)
+          setTimeout(() => beep.load(), 3000)
+        })
+        .catch(error => console.log(error))
+      }
+      
+    }
       
      function controlTimer(){
       setIsRunning(!isRunning)
